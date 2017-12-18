@@ -21,4 +21,12 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+		double x1;
+		double y1;
+		double x2;
+		double y2;
+		double x3;
+		double y3;
+		int NUM_RECURSIONS;
+		void Sierpinski(double x1, double y1, double x2, double y2, double x3, double y3, int n);
 };
