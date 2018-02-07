@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include <stack>
 
 class ofApp : public ofBaseApp{
 
@@ -29,4 +30,10 @@ class ofApp : public ofBaseApp{
 		double y3;
 		int NUM_RECURSIONS;
 		void Sierpinski(double x1, double y1, double x2, double y2, double x3, double y3, int n);
+		vector<ofPoint> points;
+		int r;
+		int y;
+		int X_MAX;
+		int Y_MAX;
+		ofPoint p;
 };
